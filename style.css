@@ -26,6 +26,21 @@
 
 html { -webkit-text-size-adjust: 100%; }
 
+.visitor-stats {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--muted);
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.visitor-stats span {
+  color: var(--fg);
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
 body {
   margin: 0;
   background: var(--bg);
