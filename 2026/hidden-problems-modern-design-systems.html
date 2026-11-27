@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      The Hidden Problems With Modern Design Systems | Rishabh Pandey
+    </title>
+    <meta name="description" content="Are design systems slowing teams down? Explore design debt, overengineering, governance, AI, and the future of product design systems." />
+    <meta
+      property="og:title"
+      content="The Hidden Problems With Modern Design Systems | Rishabh Pandey"
+    />
+    <meta
+      property="og:description"
+      content="Are design systems slowing teams down? Explore design debt, overengineering, governance, AI, and the future of product design systems."
+    />
+    <meta property="og:site_name" content="Rishabh Pandey" />
+    <meta name="twitter:card" content="summary" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Rishabh Pandey"
+      href="../../feed.xml"
+    />
+    <link rel="shortcut icon" href="/images/rpfav.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="">
+    <div class="wrap">
+      <header class="site-header">
+        <a class="brand" href="/index.html">Rishabh Pandey</a>
+        <nav>
+          <a href="/about.html">About</a>
+          <a href="https://x.com/rishabhxin" target="_blank" rel="noopener"
+            >X</a
+          >
+          <a
+            href="https://www.linkedin.com/in/rishabhxin/"
+            target="_blank"
+            rel="noopener"
+            >LinkedIn</a
+          >
+        </nav>
+      </header>
+      <main>
+        <article>
+          <h1>
+            Your Design System Might Be the Biggest Bottleneck in Your Product Development
+          </h1>
+          <div class="post-meta">
+            <span>@rishabhxin</span><span class="sep">|</span
+            ><time datetime="2026-09-02">November 27, 2026</time
+            ><span class="sep">·</span><span>3 min read</span>
+          </div>
+          
+<div class="prose">
+  <p><em>We built design systems to make product development faster. But somewhere along the way, we started building systems that teams are afraid to change.</em></p>
+
+  <p>There is something interesting happening in the design industry.</p>
+
+  <p>Companies are investing heavily in design systems. They are building component libraries, defining design tokens, documenting guidelines, and creating hundreds of reusable elements.</p>
+
+  <p>On paper, everything looks organised.</p>
+
+  <p>But ask a simple question: How many teams actually enjoy using the design system they have built?</p>
+
+  <p>In some organisations, designers spend more time searching for the right component than solving the actual design problem. Developers create workarounds because existing components cannot support new requirements. Product teams wait for design system approvals to make relatively small changes.</p>
+
+  <p>Something that was supposed to accelerate innovation slowly becomes another layer of complexity.</p>
+
+  <p>Perhaps we need to rethink what a design system is supposed to achieve.</p>
+
+  <h2>The Problem With Building Design Systems Just for Consistency</h2>
+
+  <p>Consistency is probably the most repeated word whenever someone talks about design systems.</p>
+
+  <p>Every button should look the same. Every card should follow the same spacing. Every form should have similar behaviour.</p>
+
+  <p>But consistency is not always a sign of good design.</p>
+
+  <p>Imagine an e-commerce platform and a financial dashboard. Both might use the same design system, but their users have completely different expectations.</p>
+
+  <p>An e-commerce customer wants to discover products quickly. A financial dashboard user wants to understand complex information accurately.</p>
+
+  <p>Forcing both experiences into identical interaction patterns simply because they belong to the same company can damage usability.</p>
+
+  <p>The real purpose of a design system should not be to make everything look identical.</p>
+
+  <p>It should establish a common foundation while allowing individual products to solve their own problems.</p>
+
+  <p>Consistency should create familiarity, not restrict creativity.</p>
+
+  <h2>The Hidden Cost of an Overengineered Design System</h2>
+
+  <p>One of the biggest mistakes companies make is assuming that a larger design system is automatically a better design system.</p>
+
+  <p>Teams start creating components for every possible scenario.</p>
+
+  <p>A button has 12 variations. A card has 15 configurations. A form component has so many properties that understanding how to use it becomes a task in itself.</p>
+
+  <p>Eventually, the system becomes difficult to maintain.</p>
+
+  <p>Consider this:</p>
+
+  <p>A designer needs a simple pricing card. Instead of creating it using three existing components, they have to understand a complex component structure, check documentation, identify the correct variant, and sometimes request additional support.</p>
+
+  <p>The time saved through reusability gets consumed by complexity.</p>
+
+  <p>This raises an important question:</p>
+
+  <p>Are we building design systems to simplify product development, or are we building them because we enjoy organising design elements?</p>
+
+  <p>A good design system should reduce decisions, not introduce new ones.</p>
+
+  <h2>Design Debt Is More Dangerous Than You Think</h2>
+
+  <p>Most product teams understand technical debt.</p>
+
+  <p>When developers take shortcuts to deliver features faster, those shortcuts can create maintenance problems later.</p>
+
+  <p>But there is another problem that receives less attention: design debt.</p>
+
+  <p>Design debt develops when design decisions are repeatedly made without a shared direction.</p>
+
+  <p>For example:</p>
+
+  <ul>
+    <li>A new button style is introduced for one feature.</li>
+    <li>A different spacing rule is used on another page.</li>
+    <li>A new typography scale appears in a marketing section.</li>
+    <li>Developers introduce custom components to solve immediate problems.</li>
+    <li>Old components remain in the system even after becoming irrelevant.</li>
+  </ul>
+
+  <p>Initially, these decisions seem harmless.</p>
+
+  <p>Over time, the product starts looking like multiple products stitched together.</p>
+
+  <p>Design debt is not just a visual problem. It increases development effort, creates inconsistent user experiences, and makes future improvements harder.</p>
+
+  <p>A mature design system should actively manage design debt instead of simply adding more components.</p>
+
+  <h2>Your Design System Needs a Governance Model, Not Just a Figma File</h2>
+
+  <p>Here is something many teams overlook.</p>
+
+  <p>A design system is not successful because it exists. It is successful when people can contribute to it, understand it, and improve it.</p>
+
+  <p>Imagine a company with five product teams and one central design system team.</p>
+
+  <p>Every time a product team needs a new component, it has to wait for approval from the central team.</p>
+
+  <p>What happens next?</p>
+
+  <p>Teams start creating their own versions.</p>
+
+  <p>The company now has two systems: the official design system and the unofficial one that everyone actually uses.</p>
+
+  <p>This is why design system governance matters.</p>
+
+  <p>A better approach is to establish clear ownership while allowing controlled contributions.</p>
+
+  <p>Product teams should be able to propose new components, report issues, suggest improvements, and contribute solutions.</p>
+
+  <p>The central team should maintain quality, accessibility, documentation, and compatibility.</p>
+
+  <p>The goal is not to control every design decision. It is to create a system that improves through collaboration.</p>
+
+  <h2>The Future Is Not About More Components. It Is About Smarter Systems.</h2>
+
+  <p>The next evolution of design systems will not necessarily come from creating bigger component libraries.</p>
+
+  <p>It will come from making existing systems more intelligent and adaptable.</p>
+
+  <p>Think about a design system that understands the context in which a component is being used.</p>
+
+  <p>For example:</p>
+
+  <ul>
+    <li>A button automatically adjusts its contrast based on the background.</li>
+    <li>A layout adapts to different screen sizes without requiring separate manual configurations.</li>
+    <li>AI identifies inconsistencies between design files and production interfaces.</li>
+    <li>Design tokens automatically support different themes and brand identities.</li>
+    <li>Developers can generate interface variations while remaining within established design rules.</li>
+  </ul>
+
+  <p>AI could also help teams identify unused components, detect design inconsistencies, and recommend improvements based on actual usage.</p>
+
+  <p>However, automation should not replace design judgement.</p>
+
+  <p>A system can identify that two buttons are different. It cannot always understand whether that difference exists for a good user experience reason.</p>
+
+  <p>That distinction will become increasingly important.</p>
+
+  <h2>What Should Companies Measure Instead of Counting Components?</h2>
+
+  <p>A design system with 500 components is not necessarily more successful than one with 50.</p>
+
+  <p>Component count tells us very little about actual value.</p>
+
+  <p>Companies should start measuring the impact of their design systems through meaningful indicators.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Metric</th>
+        <th>What it tells us</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Component adoption rate</td>
+        <td>How frequently teams use shared components</td>
+      </tr>
+      <tr>
+        <td>Design-to-development time</td>
+        <td>Whether the system speeds up delivery</td>
+      </tr>
+      <tr>
+        <td>Component duplication</td>
+        <td>Whether teams are repeatedly rebuilding existing elements</td>
+      </tr>
+      <tr>
+        <td>Design inconsistency rate</td>
+        <td>How often products deviate from established standards</td>
+      </tr>
+      <tr>
+        <td>Accessibility compliance</td>
+        <td>Whether components support inclusive experiences</td>
+      </tr>
+      <tr>
+        <td>Contribution frequency</td>
+        <td>Whether teams actively improve the system</td>
+      </tr>
+      <tr>
+        <td>Maintenance effort</td>
+        <td>How much work is required to keep the system healthy</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>These metrics provide a better understanding of whether the design system is actually helping the organisation.</p>
+
+  <h2>A Different Way to Think About Design Systems</h2>
+
+  <p>Perhaps the biggest shift we need is to stop treating design systems as finished products.</p>
+
+  <p>They are not static libraries that a design team builds once and hands over to developers.</p>
+
+  <p>They are living infrastructure.</p>
+
+  <p>They need maintenance, feedback, experimentation, governance, and sometimes even removal of components that no longer serve a purpose.</p>
+
+  <p>The best design system is not necessarily the one with the most components, the most detailed documentation, or the most impressive Figma file.</p>
+
+  <p>It is the one that people actually want to use.</p>
+
+  <p>Because ultimately, a design system should make building better products easier, not make the process of building products more complicated.</p>
+
+  <p>Maybe the real measure of a great design system is not how much it standardises, but how much unnecessary work it eliminates without limiting innovation.</p>
+</div>
+
+          <a class="back" href="/index.html">&larr; All posts</a>
+        </article>
+      </main>
+      <footer class="site-footer">
+        <span
+          >Rishabh Pandey (<a
+            href="https://x.com/rishabhxin"
+            target="_blank"
+            rel="noopener"
+            >@rishabhxin</a
+          >)</span
+        >
+        <a
+          href="https://www.linkedin.com/in/rishabhxin/"
+          target="_blank"
+          rel="noopener"
+          >LinkedIn</a
+        >
+        <span class="visitor-stats">
+  <span id="lifetime-count">0</span>
+  total views
+</span>
+      </footer>
+    </div>
+
+    <script type="module" src="/firebase-counter.js"></script>
+  </body>
+</html>
