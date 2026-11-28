@@ -1,0 +1,7 @@
+# Robots.txt generated with Open Sign
+# Website: https://rp.supervillain.in
+
+User-agent: *
+Allow: /
+
+Sitemap: https://rp.supervillain.in/sitemap.xml
